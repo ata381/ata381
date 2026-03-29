@@ -21,9 +21,4 @@ I build things before anyone asks me to — RAG pipelines, LLM integrations, aut
 ### Tech I work with
 
 `Python` `TypeScript` `JavaScript` `FastAPI` `Node.js` `SQL` `Docker` `FAISS` `Qdrant` `ChromaDB` `LangChain` `OpenAI API` `Anthropic API` `Gemini API` `Azure OpenAI` `Ollama` `n8n` `Git` `PyTorch` `React`
-
-### Why private repos?
-
-I've built demos for clients and have been working on my own ideas that aren't ready to share yet — happy to walk through the code or discuss architecture anytime.
-
 📫 **ataa2000@hotmail.com** · [LinkedIn](https://linkedin.com/in/ataakıllıoğlu)
