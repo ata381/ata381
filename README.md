@@ -1,22 +1,39 @@
 ## Hey, I'm Ata 👋
 
-AI Developer based in the Netherlands. BSc in Cognitive Science & AI from Tilburg University.
+AI Engineer based in the Netherlands. BSc in Cognitive Science & AI from Tilburg University.
 
 I build things before anyone asks me to — RAG pipelines, LLM integrations, automated workflows, developer tools.
 
 ### What I've been building
 
-🔍 **RAG Chatbot** — End-to-end retrieval system for a Dutch construction company. Scraped 377 pages, FAISS vector store, hybrid retrieval (vector + keyword + temporal fallback), 97% accuracy across 261 benchmark tests. FastAPI backend, React widget embeddable via a single `<script>` tag, swappable LLM providers (OpenAI, Anthropic, Azure, Ollama). Containerised with Docker. Liked the architecture enough to build a second, more advanced version.
+🔍 **RAG Chatbot** — End-to-end retrieval system over ~377 scraped pages, built across two
+iterations: a FAISS proof-of-concept, then a production rebuild on Qdrant with a curated
+multilingual knowledge base, unified retrieval (vector + keyword + temporal + location-aware
+ranking), and a policy-document labeling pipeline. 97% accuracy across 261 benchmark tests.
+FastAPI backend, React widget embeddable via a single `<script>` tag, widget-key auth +
+rate limiting, swappable LLM providers (OpenAI, Anthropic, Azure, Ollama). Containerised with Docker.
 
-📰 **Municipality Policy Monitor** — Automated system that polls Dutch government publications, filters by semantic relevance (OpenAI embeddings, 0.65 cosine threshold), stores in Qdrant, and serves a RAG Q&A endpoint via FastAPI + GPT-4.1. Dockerised with Docker Compose.
+📰 **Municipality Policy Monitor** — Policy-intelligence platform that polls Dutch government
+publications via the SRU protocol, scores them by semantic relevance (OpenAI embeddings, 0.38
+cosine threshold) and labels them with GPT-4o, stored in Qdrant. Adds a three-stage Land Market
+Intelligence funnel (housing demand → site feasibility → policy alignment) over PRIMOS/CBS/PDOK
+data, TenderNed tender tracking, and a RAG Q&A endpoint (GPT-4.1). Dual-tab React SPA with a
+D3 municipality map. FastAPI + Docker Compose.
 
-📧 **AI Email Triage** — Outlook add-in that classifies an inbox as ACTION / INFO / LOW in one click. Full auth pipeline (Office SSO → Cloudflare Worker → Microsoft Graph API → GPT-4o-mini). Replaced an Azure backend with a single Cloudflare Worker — near-zero infrastructure cost.
+🧭 **ApplyPilot** — A privacy-first Chrome extension (Manifest V3) that drafts job applications
+locally. From the side panel you capture a job description, and a local FastAPI + LLM service
+generates a tailored cover letter, screening-question answers, and a CV PDF — all grounded in
+your own résumé corpus, kept on your machine. No scraping, no auto-submit: you review and paste.
+Multi-provider LLM support (OpenAI / Anthropic / Google / Ollama). Inspired by
+[eracle/OpenOutreach](https://github.com/eracle/OpenOutreach).
 
-🎯 **DevMatch** — AI-powered job matching platform for developers. Connects GitHub + LinkedIn, builds a developer profile with strength scoring, generates tailored CVs per job listing with match scores, and tracks applications on a kanban board. Built in TypeScript with Gemini API integration. [→ repo](https://github.com/ata381/DevMatch)
+📧 **AI Email Triage** — Outlook add-in that classifies an inbox as ACTION / INFO / LOW in one
+click. Full auth pipeline (Office SSO → Cloudflare Worker → Microsoft Graph API → GPT-4o-mini).
+Replaced an Azure backend with a single Cloudflare Worker — near-zero infrastructure cost.
 
-💡 **Founder Idea Analyzer** — Startup evaluation workbench where founders submit an idea and get LLM-backed scoring plus a generated Lean Canvas. Tracks revisions over time so mentors can compare snapshots and measure learning velocity. Node.js + Express, MongoDB, Ollama. [→ repo](https://github.com/ata381/founder-idea-analyzer)
-
-🍳 *A couple more things cooking* — a full-stack recipe app with AI, a workflow automation layer with n8n, and an education-tech integration. All in various stages of "works on my machine."
+💡 **Founder Idea Analyzer** — Startup evaluation workbench where founders submit an idea and get
+LLM-backed scoring plus a generated Lean Canvas. Tracks revisions over time so mentors can compare
+snapshots and measure learning velocity. Node.js + Express, MongoDB, Ollama. [→ repo](https://github.com/ata381/founder-idea-analyzer)
 
 ### Tech I work with
 
