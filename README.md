@@ -1,8 +1,8 @@
 ## Hey, I'm Ata 👋
 
-AI Engineer based in the Netherlands. BSc in Cognitive Science & AI from Tilburg University.
+AI Engineer based in Tilburg, the Netherlands, and founder of [Generative Studio](https://generative-studio.nl/), an independent software and design studio. BSc in Cognitive Science & AI from Tilburg University.
 
-I build things before anyone asks me to — RAG pipelines, LLM integrations, automated workflows, developer tools.
+I build things before anyone asks me to — RAG pipelines, LLM integrations, automated workflows, developer tools. Through the studio I take on product development, design systems, and technical consulting.
 
 ### What I've been building
 
@@ -38,4 +38,4 @@ snapshots and measure learning velocity. Node.js + Express, MongoDB, Ollama. [�
 ### Tech I work with
 
 `Python` `TypeScript` `JavaScript` `FastAPI` `Node.js` `SQL` `Docker` `FAISS` `Qdrant` `ChromaDB` `LangChain` `OpenAI API` `Anthropic API` `Gemini API` `Azure OpenAI` `Ollama` `n8n` `Git` `PyTorch` `React`
-📫 **ataa2000@hotmail.com** · [LinkedIn](https://linkedin.com/in/ataakıllıoğlu)
+📫 **ataa2000@hotmail.com** · [LinkedIn](https://linkedin.com/in/ataakıllıoğlu) · [Generative Studio](https://generative-studio.nl/) · [Studio on LinkedIn](https://www.linkedin.com/company/generativestudio/)
